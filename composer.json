@@ -1,6 +1,14 @@
 {
     "name": "siddik-web/stringify",
-    "require": {},
+    "description": "This is an String manipulation class.",
+    "keywords": ["php", "php-string"],
+    "authors": [
+        {
+            "name": "Md Siddiqur Rahman",
+            "email": "siddikcoder@gmail.com"
+        }
+    ],
+    "license": "MIT",
     "autoload": {
         "psr-4":{
             "SiddikWeb\\Stringify" : "src/"
