@@ -77,4 +77,46 @@ class Stringify
 
        return $this;
     }
+
+    /**
+     * Trim text function
+     *
+     * @return Stringify
+     * 
+     * @since 1.0.4
+     */
+    public function trim() : Stringify
+    {
+        $this->text = trim($this->text);
+
+        return $this;
+    }
+
+    /**
+     * Text Left trim function
+     *
+     * @return Stringify
+     * 
+     * @since 1.0.4
+     */
+    public function lTrim() : Stringify
+    {
+       $this->text = ltrim($this->text);
+
+       return $this;
+    }
+
+    /**
+     * Text Right Trim function
+     *
+     * @return Stringify
+     * 
+     * @since 1.0.4
+     */
+    public function rTrim() : Stringify
+    {
+        $this->text = rtrim($this->text);
+
+        return $this;
+    }
 }
