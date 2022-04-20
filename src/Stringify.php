@@ -99,7 +99,7 @@ class Stringify
      * 
      * @since 1.0.4
      */
-    public function lTrim() : Stringify
+    public function ltrim() : Stringify
     {
        $this->text = ltrim($this->text);
 
@@ -113,7 +113,7 @@ class Stringify
      * 
      * @since 1.0.4
      */
-    public function rTrim() : Stringify
+    public function rtrim() : Stringify
     {
         $this->text = rtrim($this->text);
 
