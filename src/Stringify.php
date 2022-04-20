@@ -1,6 +1,6 @@
 <?php
 
-namespace SiddikWeb\Stringify;
+namespace SiddikWeb\App;
 
 /**
  * Stringify main class
