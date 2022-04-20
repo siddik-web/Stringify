@@ -119,4 +119,18 @@ class Stringify
 
         return $this;
     }
+
+    /**
+     * Text Capitalize function
+     *
+     * @return Stringify
+     * 
+     * @since 1.0.5
+     */
+    public function capitalize() : Stringify
+    {
+        $this->text = ucfirst($this->text);
+
+        return $this;
+    }
 }
