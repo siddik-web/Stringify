@@ -133,4 +133,18 @@ class Stringify
 
         return $this;
     }
+
+    /**
+     * Text slugify function
+     *
+     * @return Stringify
+     * 
+     * @since 1.0.6
+     */
+    public function slugify() : Stringify
+    {
+         $this->text = str_replace(" ", "-", $this->lower($this->text)->getText());
+
+         return $this;
+    }
 }
