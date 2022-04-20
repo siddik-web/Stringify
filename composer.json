@@ -13,5 +13,14 @@
         "psr-4":{
             "SiddikWeb\\App\\" : "src/"
         }
+    },
+    "scripts":{
+        "phpcs" : "./vendor/bin/phpcs --standard=PSR12 --ignore=./vendor/ -p .",
+        "phpcbf" : "./vendor/bin/phpcbf --standard=PSR12 --ignore=./vendor/ -p .",
+        "test" : "./vendor/bin/phpunit"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.6",
+        "phpunit/phpunit": "^9.5"
     }
 }
