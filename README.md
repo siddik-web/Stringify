@@ -45,3 +45,7 @@ rtrim()
 ```
 capitalize()
 ```
+**slugify:**
+```
+slugify()
+```
