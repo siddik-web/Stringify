@@ -1,0 +1,9 @@
+{
+    "name": "siddik-web/stringify",
+    "require": {},
+    "autoload": {
+        "psr-4":{
+            "SiddikWeb\\Stringify" : "src/"
+        }
+    }
+}
