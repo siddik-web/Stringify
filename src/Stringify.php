@@ -139,7 +139,7 @@ class Stringify
      *
      * @return Stringify
      * 
-     * @since 1.0.6
+     * @since 1.0.7
      */
     public function slugify() : Stringify
     {
