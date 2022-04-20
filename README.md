@@ -1,5 +1,5 @@
 # Stringify
-String Manipulation Class 
+Stringify is a String Manipulation Class like Vocajs. Stringify is a PHP library for manipulating strings.
 
 # How to install
 ```
