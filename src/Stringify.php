@@ -19,15 +19,21 @@ class Stringify
     private $text;
 
     /**
-     * Constructor function
+     * Of function
      *
-     * @param string $text
+     * @param string $text Any String
      * 
-     * @since 1.0.0
+     * @return Stringify
+     * 
+     * @since 1.0.3
      */
-    public function __construct($text)
+    public static function of($text) : Stringify
     {
-        $this->text = $text;
+        $obj = new self;
+
+        $obj->text = $text;
+
+        return $obj;
     }
 
     /**
